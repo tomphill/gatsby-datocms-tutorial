@@ -1,0 +1,20 @@
+.grid-col {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .grid-col-desktop {
+    display: block;
+  }
+}
+@media (max-width: 1199px) and (min-width: 768px) {
+  .grid-col-tablet {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .grid-col-mobile {
+    display: block;
+  }
+}
